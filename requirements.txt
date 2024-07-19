@@ -13,3 +13,4 @@ tokenizers
 transformers
 sentence-transformers 
 streamlit
+streamlit_pdf_viewer
