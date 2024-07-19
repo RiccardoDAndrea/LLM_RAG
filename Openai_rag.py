@@ -13,8 +13,8 @@ from streamlit_pdf_viewer import pdf_viewer
 Open_api_token = st.sidebar.text_input("OpenAI API Token", "sk-", type="password")
 
 example_pdfs = {
-    "The economic potential of generative AI": "/Users/riccardo/Desktop/Github/LLM_RAG/PDF_docs/the-economic-potential-of-generative-ai-the-next-productivity-frontier-vf.pdf",
-    "Overcoming huge challenges in cancer": "/Users/riccardo/Desktop/Github/LLM_RAG/PDF_docs/WIREs Mechanisms of Disease - 2013 - Roukos - Genome network medicine  innovation to overcome huge challenges in cancer.pdf",
+    "The economic potential of generative AI": "PDF_docs/the-economic-potential-of-generative-ai-the-next-productivity-frontier-vf.pdf",
+    "Overcoming huge challenges in cancer": "PDF_docs/WIREs Mechanisms of Disease - 2013 - Roukos - Genome network medicine  innovation to overcome huge challenges in cancer.pdf",
 }
 
 # Streamlit Main
