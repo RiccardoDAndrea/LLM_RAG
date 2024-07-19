@@ -15,6 +15,8 @@ RUN apt-get update && apt-get install -y \
 
 RUN git clone https://github.com/RiccardoDAndrea/LLM_RAG.git .
 
+RUN git checkout docker
+
 RUN pip3 install -r requirements.txt
 
 EXPOSE 8501
